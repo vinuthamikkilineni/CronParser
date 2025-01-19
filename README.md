@@ -20,7 +20,7 @@ mvn exec:java -Dexec.args="'*/15 0 1,15 * 1-5 /usr/bin/find'"
 
 ```
 Cron of length 5 . Optional field year is not supported.
-/,*,- operations are supported. ? is not supported.
+/,*,- and , operations are supported. ? is not supported.
 Validation for days in month is not supported months having less than 31 days
 
 ```
